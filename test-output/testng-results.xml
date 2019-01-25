@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="28579" started-at="2019-01-25T05:46:45Z" finished-at="2019-01-25T05:47:14Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="28579" started-at="2019-01-25T05:46:45Z" finished-at="2019-01-25T05:47:14Z">
+      <class name="com.testautomation.TestRunner.TestRunner">
+        <test-method status="PASS" signature="setupClass()[pri:0, instance:com.testautomation.TestRunner.TestRunner@2ac273d3]" name="setupClass" is-config="true" duration-ms="438" started-at="2019-01-25T11:16:45Z" finished-at="2019-01-25T11:16:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupClass -->
+        <test-method status="PASS" signature="feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:com.testautomation.TestRunner.TestRunner@2ac273d3]" name="feature" duration-ms="27938" started-at="2019-01-25T11:16:46Z" data-provider="features" finished-at="2019-01-25T11:17:14Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Facebook search validations]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- feature -->
+        <test-method status="PASS" signature="tearDownclass()[pri:0, instance:com.testautomation.TestRunner.TestRunner@2ac273d3]" name="tearDownclass" is-config="true" duration-ms="34" started-at="2019-01-25T11:17:14Z" finished-at="2019-01-25T11:17:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownclass -->
+      </class> <!-- com.testautomation.TestRunner.TestRunner -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

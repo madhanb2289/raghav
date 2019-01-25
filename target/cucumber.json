@@ -1,0 +1,64 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "line": 3,
+        "name": "Facebook search positive scenario",
+        "description": "",
+        "id": "facebook-search-validations;facebook-search-positive-scenario",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 18932800514,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "open chrome browser and enter url",
+            "match": {
+              "location": "MyProfileSearchstepDef.open_chrome_browser_and_enter_url()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 5483317491,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "Enter search criteria",
+            "match": {
+              "location": "MyProfileSearchstepDef.enter_search_criteria()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 3474950355,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "click on search button",
+            "match": {
+              "location": "MyProfileSearchstepDef.click_on_search_button()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Facebook search validations",
+    "description": "",
+    "id": "facebook-search-validations",
+    "keyword": "Feature",
+    "uri": "MyProfileSearch.feature",
+    "tags": [
+      {
+        "line": 1,
+        "name": "@CucumberTesting"
+      }
+    ]
+  }
+]
